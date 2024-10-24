@@ -1,13 +1,6 @@
-stages:          # List of stages for jobs, and their order of execution
-  - build
+stages:       
+
   - test
-
-
-build-job:       
-  stage: build
-  script:
-    - echo "Compiling the code..."
-    - echo "Compile complete."
 
 unit-test-job:
   image: cypress/browsers   
