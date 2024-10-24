@@ -31,7 +31,7 @@ unit-test-job:
   image: cypress/browsers   # This job runs in the test stage.
   stage: test    # It only starts when the job in the build stage completes successfully.
   script:
-    - npn ci
+    - npm ci
     - npx cypress run
 
 lint-test-job:   # This job also runs in the test stage.
