@@ -15,5 +15,5 @@ unit-test-job:
       - mochawesome-report/**
       - cypress/screenshots/**/*.png
       - cypress/videos/**/*.mp4
-    expire_in: 12 days
+    expire_in: 7 days
 
