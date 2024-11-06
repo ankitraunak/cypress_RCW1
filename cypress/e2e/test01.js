@@ -11,6 +11,6 @@ describe('sauce demo spec', () => {
     cy.wait(3000);
         cy.get('.tile-container').should('be.visible')
         cy.get('.tile-container').find('.tag-tile').contains("Refrigerators").click();
-        cy.url().should('include', text);  
+        cy.url().should('include', 'Refrigerators');  
   })
 })
