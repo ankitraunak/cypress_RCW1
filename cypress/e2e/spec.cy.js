@@ -29,6 +29,6 @@ describe('Test RCW 02', () => {
     cy.wait(3000);
         cy.get('.tile-container').should('be.visible')
         cy.get('.tile-container').find('.tag-tile').contains("Refrigerators").click();
-        cy.url().should('include', 'Text');  
+        cy.url().should('include', 'Texts');  
   })
 })
