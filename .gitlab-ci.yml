@@ -3,6 +3,8 @@ stages:
   - test
 
 unit-test-job:
+  tags:
+    - windows_os
   image: cypress/browsers   
   stage: test    
   script:
