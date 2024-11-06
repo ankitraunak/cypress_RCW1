@@ -1,4 +1,4 @@
-describe('sauce demo spec', () => {
+describe('Test RCW 01', () => {
   it('logs in', () => {
     cy.visit('https://rcwtest.rcwilley.com/');
     cy.wait(3000)
@@ -16,7 +16,7 @@ describe('sauce demo spec', () => {
 })
 
 
-describe('sauce demo spec', () => {
+describe('Test RCW 02', () => {
   it('logs in', () => {
     cy.visit('https://rcwtest.rcwilley.com/');
     cy.wait(3000)
