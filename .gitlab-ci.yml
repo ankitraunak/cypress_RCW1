@@ -4,7 +4,9 @@ stages:
 
 unit-test-job:
   image: cypress/browsers   
-  stage: test    
+  stage: test 
+  tags:
+    - runner1   
   script:
     - npm ci
     - npm install mochawesome
